@@ -1,0 +1,25 @@
+{
+  "name": "ranked-live",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@radix-ui/themes": "^3.2.1",
+    "jotai": "^2.12.5",
+    "lodash.sortby": "^4.7.0",
+    "lodash.uniqby": "^4.7.0",
+    "preact": "^10.26.5",
+    "react-country-flag": "^3.1.0",
+    "react-embed": "^3.7.0",
+    "swr": "^2.3.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.1",
+    "vite": "^6.3.5"
+  }
+}
